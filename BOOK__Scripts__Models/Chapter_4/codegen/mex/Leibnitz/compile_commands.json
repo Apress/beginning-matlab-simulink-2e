@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   Leibnitz_data.c -o build/win64/Leibnitz_data.o",
+    "file": "Leibnitz_data.c",
+    "output": "build/win64/Leibnitz_data.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   Leibnitz_initialize.c -o build/win64/Leibnitz_initialize.o",
+    "file": "Leibnitz_initialize.c",
+    "output": "build/win64/Leibnitz_initialize.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   Leibnitz_terminate.c -o build/win64/Leibnitz_terminate.o",
+    "file": "Leibnitz_terminate.c",
+    "output": "build/win64/Leibnitz_terminate.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   Leibnitz.c -o build/win64/Leibnitz.o",
+    "file": "Leibnitz.c",
+    "output": "build/win64/Leibnitz.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_Leibnitz_api.c -o build/win64/_coder_Leibnitz_api.o",
+    "file": "interface/_coder_Leibnitz_api.c",
+    "output": "build/win64/_coder_Leibnitz_api.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_Leibnitz_mex.c -o build/win64/_coder_Leibnitz_mex.o",
+    "file": "interface/_coder_Leibnitz_mex.c",
+    "output": "build/win64/_coder_Leibnitz_mex.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_Leibnitz_info.c -o build/win64/_coder_Leibnitz_info.o",
+    "file": "interface/_coder_Leibnitz_info.c",
+    "output": "build/win64/_coder_Leibnitz_info.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\Leibnitz\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=Leibnitz_mex -D__USE_MINGW_ANSI_STDIO=1   \"C:/Program Files/MATLAB/R2022b/extern/version/c_mexapi_version.c\" -o build/win64/c_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2022b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

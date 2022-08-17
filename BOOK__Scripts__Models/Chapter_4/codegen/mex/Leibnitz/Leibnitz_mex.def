@@ -1,0 +1,9 @@
+LIBRARY Leibnitz_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+Leibnitz
+Leibnitz_initialize
+Leibnitz_terminate
+Leibnitz_atexit

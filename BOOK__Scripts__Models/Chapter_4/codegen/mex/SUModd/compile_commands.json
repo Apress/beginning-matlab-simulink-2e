@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   SUModd_data.c -o build/win64/SUModd_data.o",
+    "file": "SUModd_data.c",
+    "output": "build/win64/SUModd_data.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   SUModd_initialize.c -o build/win64/SUModd_initialize.o",
+    "file": "SUModd_initialize.c",
+    "output": "build/win64/SUModd_initialize.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   SUModd_terminate.c -o build/win64/SUModd_terminate.o",
+    "file": "SUModd_terminate.c",
+    "output": "build/win64/SUModd_terminate.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   SUModd.c -o build/win64/SUModd.o",
+    "file": "SUModd.c",
+    "output": "build/win64/SUModd.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_SUModd_api.c -o build/win64/_coder_SUModd_api.o",
+    "file": "interface/_coder_SUModd_api.c",
+    "output": "build/win64/_coder_SUModd_api.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_SUModd_mex.c -o build/win64/_coder_SUModd_mex.o",
+    "file": "interface/_coder_SUModd_mex.c",
+    "output": "build/win64/_coder_SUModd_mex.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_SUModd_info.c -o build/win64/_coder_SUModd_info.o",
+    "file": "interface/_coder_SUModd_info.c",
+    "output": "build/win64/_coder_SUModd_info.o"
+  },
+  {
+    "directory": "E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022bPrerelease\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\" -I \"E:\\MATLAB__BOOK__5\\BOOK__Scripts__Models\\Chapter_4\\codegen\\mex\\SUModd\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1   \"C:/Program Files/MATLAB/R2022b/extern/version/c_mexapi_version.c\" -o build/win64/c_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2022b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

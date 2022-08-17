@@ -1,0 +1,52 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = C:/Program Files/MATLAB/R2022b
+startdir = E:/MATLAB__BOOK__5/BOOK__Scripts__Models/Chapter_4
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2022bPrerelease\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2022bPrerelease\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2022bPrerelease\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2022bPrerelease\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "E:\MATLAB__BOOK__5\BOOK__Scripts__Models\Chapter_4\codegen\mex\SUModd" -I "E:\MATLAB__BOOK__5\BOOK__Scripts__Models\Chapter_4" -I "E:\MATLAB__BOOK__5\BOOK__Scripts__Models\Chapter_4\codegen\mex\SUModd\interface" -I "C:\Program Files\MATLAB\R2022b\extern\include" -I "." -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "E:\MATLAB__BOOK__5\BOOK__Scripts__Models\Chapter_4\codegen\mex\SUModd" -I "E:\MATLAB__BOOK__5\BOOK__Scripts__Models\Chapter_4" -I "E:\MATLAB__BOOK__5\BOOK__Scripts__Models\Chapter_4\codegen\mex\SUModd\interface" -I "C:\Program Files\MATLAB\R2022b\extern\include" -I "." -DMODEL=SUModd_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+ldflags =  -m64 -Wl,--no-undefined -shared -static -L"C:\Program Files\MATLAB\R2022b\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "SUModd_mex.mexw64" -llibemlrt -llibcovrt -llibut -llibmwmathutil  SUModd_mex.def
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldflags
+
+# Build
+build $builddir/SUModd_data.o : cc $root/SUModd_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/SUModd_initialize.o : cc $root/SUModd_initialize.c
+build $builddir/SUModd_terminate.o : cc $root/SUModd_terminate.c
+build $builddir/SUModd.o : cc $root/SUModd.c
+build $builddir/_coder_SUModd_api.o : cc $root/interface/_coder_SUModd_api.c
+build $builddir/_coder_SUModd_mex.o : cc $root/interface/_coder_SUModd_mex.c
+build $builddir/_coder_SUModd_info.o : cc $root/interface/_coder_SUModd_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\SUModd_mex.mexw64 : link $builddir/SUModd_data.o $builddir/rt_nonfinite.o $builddir/SUModd_initialize.o $builddir/SUModd_terminate.o $builddir/SUModd.o $builddir/_coder_SUModd_api.o $builddir/_coder_SUModd_mex.o $builddir/_coder_SUModd_info.o $builddir/c_mexapi_version.o 
